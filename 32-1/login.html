@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content=" initial-scale=1.0">
+  <link href="login.css" rel="stylesheet">
+  <link href="stylemusic.css" rel="stylesheet">
+  <meta name="viewport" content=" initial-scale=1">
+  <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <title>32</title>
+</head>
+
+<body>
+<div class="rightbackground">
+
+</div>
+  <header>
+    <div class="container">
+
+      <!-- <div class="levhead">
+                <nav>
+                    <ul>
+                      
+                        <li>EVENTS</li>
+                            <LI>POP NEWS</LI>
+                            <LI>CHARITIES</LI>
+                    </ul>
+                </nav>
+            </div> -->
+      <DIV class="logo">
+        <a href="INDEX.HTML"> <img id="logo" src="logopng.png" alt="logo"></a>
+      </DIV>
+      <div class="row clearfix">
+
+        <div class="desnohead">
+          <nav>
+            <ul>
+              <li><a href="#" class="tab">MUSIC</a></li>
+              <LI><a href="#" class="tab">STYLE</a></LI>
+              <LI><a href="#" class="tab">SPORT</a></LI>
+              <li><a href="#" class="tab">EVENTS</a></li>
+              <LI><a href="#" class="tab">CULTURE</a></LI>
+              <LI><a href="#" class="tab">CHARITIES</a></LI>
+              <li>
+                <div class="burgerMenu" id="burger" onclick="myFunction(this)">
+                  <div class="bar1"></div>
+
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+
+                </div>
+              </li>
+
+              <li>
+                <form class="searchbar" action="" placeholder="Search">
+                  <input type="search">
+                  <i class="fa fa-search"></i>
+                </form>
+              </li>
+
+            </ul>
+
+            <script>
+              //                           function myFunction(x) {
+              //                             x.classList.toggle("change");
+              //                           }
+
+
+
+
+              //                           document.getElementById("burger").addEventListener('click', function() {
+
+              //                             let  menucontent = document.getElementById("menucontent");
+              //                             console.log('menucontent',menucontent.style);
+
+
+
+
+              //                           //     if (menucontent.style.visibility==="hidden") {
+              //                           //       menucontent.style.visibility="visible";
+              //                           // } else {
+              //                           //   menucontent.style.visibility="hidden";
+              //                           // }
+              //                             if (menucontent.style.display === "block") {
+              //                             menucontent.style.display = "none";
+              //                           } else {
+              //                             menucontent.style.display = "block";
+              //                           }
+              // })
+              function myFunction(x) {
+                x.classList.toggle("change");
+                let menucontent = document.getElementById("menucontent");
+
+                if (menucontent.style.display === "block") {
+                  menucontent.style.display = "none";
+                } else {
+                  menucontent.style.display = "block";
+                }
+
+              }
+
+    // function reverseFunction(x){
+    //     x.classList.toggle("change1");
+    //     let  menucontent = document.getElementById("menucontent");
+    //     if (menucontent.style.display === "none") {
+    //         menucontent.style.display = "block";
+    //     } else {
+    //         menucontent.style.display = "none";
+    //     }
+    // }
+
+            </script>
+            <div class="desno">
+              <a  href="#"><img src="facebookpng.png" alt="" height="50" width="50"></a>
+              <a href="#"><img src="instapng.png" width="50" height="50"></a>
+              <a href="#"><img src="youtubepng.png" alt="" height="50" width="50"></a>
+            </div>
+
+          </nav>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+  </header>
+  <section id="menucontent" onclick="">
+    <div class="logo">
+      <a href="INDEX.HTML"> <img id="logo" src="whitelogo.png" alt="logo"></a>
+    </div>
+    <!-- <div class="burgerMenu1" id="burger1" onclick="reverseFunction(this)">
+        <div class="bar11"></div>
+
+        <div class="bar22"></div>
+        <div class="bar33"></div>
+      </div> -->
+    <!-- <ul class="menucontentleft">
+        <li><a href="#" class="tab" >MUSIC</a></li>
+        <LI><a href="#" class="tab">STYLE</a></LI>
+        <LI><a href="#" class="tab">SPORT</a></LI>
+          <li><a href="#" class="tab">EVENTS</a></li>
+          <LI><a href="#" class="tab">CULTURE</a></LI>
+          <LI><a href="#" class="tab">CHARITIES</a></LI>
+      </ul>
+      <ul class="menucontentmiddle">
+        <li><a href="#" class="tab" >MUSIC</a></li>
+        <LI><a href="#" class="tab">STYLE</a></LI>
+        <LI><a href="#" class="tab">SPORT</a></LI>
+          <li><a href="#" class="tab">EVENTS</a></li>
+          <LI><a href="#" class="tab">CULTURE</a></LI>
+          <LI><a href="#" class="tab">CHARITIES</a></LI>
+      </ul> -->
+    <table id="categories">
+      <tr>
+        <td class="cat1">Music</td>
+        <td>Merchandise</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="cat1">Style</td>
+        <td>Talent</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="cat1">Sport</td>
+        <td>Podcast</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="cat1">Events</td>
+        <td>Live shows</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="cat1">Culture</td>
+        <td>Books</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="cat1">Charities</td>
+        <td>Movies</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Latest Release</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Show us your work</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+         
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+    </table>
+   <div class="login"><h1 class="log"><a  href="login.html">Login</a></h1></div>
+   <div class="signup"><h1 class="sign"><a  href="#">Sign Up</a></h1></div>
+  </section>
+
+
+
+
+
+  <div class="container">
+
+    <div class="foot">
+      <div class="cont">
+        <!-- <ul>
+        <li>Contact</li>
+        <li>Contact</li>
+        <li>Contact</li>
+        <li>Contact</li>
+      </ul> -->
+      </div>
+      <div class="footlogo">
+        <img id="img" src="logopnginvert.png" alt="logo">
+      </div>
+    </div>
+  </div>
+
+  <form action="proverinajava.php" method="POST">
+    <label for="uname">Username:</label>
+    <input type="uname" id="uname" name="uname"><br><br>
+    <label for="psw">Password:</label>
+    <input type="password" id="psw" name="psw" ><br><br>
+    <input type="submit">
+  
+
+
+</body>
+
+</html>

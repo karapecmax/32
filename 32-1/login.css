@@ -1,0 +1,73 @@
+.foot {
+    border: 100px solid black;
+    position: relative;
+    top: 812px;
+    height: 60px;
+    
+    left: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-right: -500px;
+    
+    clear: both;
+ }
+
+.footlogo{
+    bottom: 50px;
+    left: 45%;
+       float: left;
+       width: 100%;
+       bottom: 0;
+       clear: both;
+       
+ }
+ .foot img{
+    bottom: 150px;
+ left: 43%;
+    float: left;
+   width: 150px;
+    position: relative;
+    
+ }
+ form{
+     top: 200px;
+     position: relative;
+     left: 900px;
+     width: 150px;
+     display: block;
+     font-family:  'Raleway', sans-serif;
+     font-size: 20px;
+     font-weight: bold;
+     
+     
+ }
+ input[type=uname]{
+     border-radius: 10px;
+     width: 200px;
+     height:40px;
+     font-size: 30px;
+     font-family:  'Raleway', sans-serif;
+
+ }
+ input[type=password]{
+    border-radius: 10px;
+    width: 200px;
+    height:40px;
+    font-size: 30px;
+    font-family:  'Raleway', sans-serif;
+
+}
+input[type=submit]{
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-family:  'Raleway', sans-serif;
+}
+
+
+
+ 
+ 
+

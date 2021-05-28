@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content=" initial-scale=1.0">
+  <link href="stylemusic.css" rel="stylesheet">
+  <meta name="viewport" content=" initial-scale=1">
+  <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <title>32</title>
+</head>
+
+<body>
+<div class="rightbackground">
+
+</div>
+  <header>
+    <div class="container">
+
+      <!-- <div class="levhead">
+                <nav>
+                    <ul>
+                      
+                        <li>EVENTS</li>
+                            <LI>POP NEWS</LI>
+                            <LI>CHARITIES</LI>
+                    </ul>
+                </nav>
+            </div> -->
+      <DIV class="logo">
+        <a href="INDEX.HTML"> <img id="logo" src="logopng.png" alt="logo"></a>
+      </DIV>
+      <div class="row clearfix">
+
+        <div class="desnohead">
+          <nav>
+            <ul>
+              <li><a href="#" class="tab">MUSIC</a></li>
+              <LI><a href="#" class="tab">STYLE</a></LI>
+              <LI><a href="#" class="tab">SPORT</a></LI>
+              <li><a href="#" class="tab">EVENTS</a></li>
+              <LI><a href="#" class="tab">CULTURE</a></LI>
+              <LI><a href="#" class="tab">CHARITIES</a></LI>
+              <li>
+                <div class="burgerMenu" id="burger" onclick="myFunction(this)">
+                  <div class="bar1"></div>
+
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+
+                </div>
+              </li>
+
+              <li>
+                <form class="searchbar" action="" placeholder="Search">
+                  <input type="search">
+                  <i class="fa fa-search"></i>
+                </form>
+              </li>
+
+            </ul>
+
+            <script>
+              //                           function myFunction(x) {
+              //                             x.classList.toggle("change");
+              //                           }
+
+
+
+
+              //                           document.getElementById("burger").addEventListener('click', function() {
+
+              //                             let  menucontent = document.getElementById("menucontent");
+              //                             console.log('menucontent',menucontent.style);
+
+
+
+
+              //                           //     if (menucontent.style.visibility==="hidden") {
+              //                           //       menucontent.style.visibility="visible";
+              //                           // } else {
+              //                           //   menucontent.style.visibility="hidden";
+              //                           // }
+              //                             if (menucontent.style.display === "block") {
+              //                             menucontent.style.display = "none";
+              //                           } else {
+              //                             menucontent.style.display = "block";
+              //                           }
+              // })
+              function myFunction(x) {
+                x.classList.toggle("change");
+                let menucontent = document.getElementById("menucontent");
+
+                if (menucontent.style.display === "block") {
+                  menucontent.style.display = "none";
+                } else {
+                  menucontent.style.display = "block";
+                }
+
+              }
+
+    // function reverseFunction(x){
+    //     x.classList.toggle("change1");
+    //     let  menucontent = document.getElementById("menucontent");
+    //     if (menucontent.style.display === "none") {
+    //         menucontent.style.display = "block";
+    //     } else {
+    //         menucontent.style.display = "none";
+    //     }
+    // }
+
+            </script>
+            <div class="desno">
+              <a  href="#"><img src="facebookpng.png" alt="" height="50" width="50"></a>
+              <a href="#"><img src="instapng.png" width="50" height="50"></a>
+              <a href="#"><img src="youtubepng.png" alt="" height="50" width="50"></a>
+            </div>
+
+          </nav>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+  </header>
+  <section id="menucontent" onclick="">
+    <div class="logo">
+      <a href="INDEX.HTML"> <img id="logo" src="whitelogo.png" alt="logo"></a>
+    </div>
+    <!-- <div class="burgerMenu1" id="burger1" onclick="reverseFunction(this)">
+        <div class="bar11"></div>
+
+        <div class="bar22"></div>
+        <div class="bar33"></div>
+      </div> -->
+    <!-- <ul class="menucontentleft">
+        <li><a href="#" class="tab" >MUSIC</a></li>
+        <LI><a href="#" class="tab">STYLE</a></LI>
+        <LI><a href="#" class="tab">SPORT</a></LI>
+          <li><a href="#" class="tab">EVENTS</a></li>
+          <LI><a href="#" class="tab">CULTURE</a></LI>
+          <LI><a href="#" class="tab">CHARITIES</a></LI>
+      </ul>
+      <ul class="menucontentmiddle">
+        <li><a href="#" class="tab" >MUSIC</a></li>
+        <LI><a href="#" class="tab">STYLE</a></LI>
+        <LI><a href="#" class="tab">SPORT</a></LI>
+          <li><a href="#" class="tab">EVENTS</a></li>
+          <LI><a href="#" class="tab">CULTURE</a></LI>
+          <LI><a href="#" class="tab">CHARITIES</a></LI>
+      </ul> -->
+    <table id="categories">
+      <tr>
+        <td class="cat1">Music</td>
+        <td>Merchandise</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="cat1">Style</td>
+        <td>Talent</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="cat1">Sport</td>
+        <td>Podcast</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="cat1">Events</td>
+        <td>Live shows</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="cat1">Culture</td>
+        <td>Books</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="cat1">Charities</td>
+        <td>Movies</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Latest Release</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Show us your work</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+         
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+    </table>
+   <div class="login"><h1 class="log"><a  href="login.html">Login</a></h1></div>
+   <div class="signup"><h1 class="sign"><a  href="#">Sign Up</a></h1></div>
+  </section>
+
+  <section id="newsslider">
+    <div class="container">
+      <div class="container">
+        <div class="row clearfix">
+          
+        </div>
+      </div>
+    </div>
+    <!-- Slideshow container -->
+
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="tyler-fallon-mos-def.jpg" style="width:800px height:600px">
+        <div class="text">
+          <H1>TYLER THE CREATOR AND THE WOLF GANG LIVE AT JIMMY KIMMEL'S</H1>
+          <!-- <P>And interview that begins with “Alright, so I had three MySpaces, right?”
+            is bound to turn out excellent. Tyler The Creator stopped by Jimmy Kimmel Live,
+            Thursday night, not to preform, but to have a sit-down discussion of his recent
+            career moves, past pranks and old jobs. Fresh off the success of his Cherry Bomb
+            LP and the rising influence of his Golf Media mobile app,
+            Tyler had ample reason to join the show as
+            a proper interviewee–and her certainly made the most of it.</P> -->
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="zack-snyders-justice-league-02.jpg" style="width:800px height:600px">
+        <div class="text">
+          <H1>How ‘Zack Snyder’s Justice League’ Set Up DC’s Future
+          </H1>
+          <!-- <P>Zack Snyder’s fabled version of Justice League has finally arrived on HBO Max after a year of speculation,
+            theories, and pleas from DC fans worldwide. Zack Snyder’s Justice League—fondly known as the “Snyder Cut”
+            of 2016’s Justice League—comes in at an intimidating four-hour run time and features Batman,
+            Wonder Woman, the Flash, Aquaman, and Cyborg teaming up to revive Superman and defeat the evil Steppenwolf,
+            while also preventing the evil Darkseid from returning to Earth.</P> -->
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="odzucje9q8z3vhjfqwau.webp" style="width:800px height:600px">
+        <div class="text">
+          <H1>The Making of Benny the Butcher and Harry Fraud’s ‘The Plugs I Met 2’</H1>
+          <!-- <P>If Benny the Butcher’s breakout The Plugs I Met EP represented his rise,
+            where he jumped into many fans’ top fives with a seven-track display of deft
+            lyricism and grizzled storytelling, The Plugs I Met 2 represents the fallout of
+            that ascent. On the nine-track project, he discusses survivor’s remorse,
+            ungrateful friends,
+            and more non-forecasted travails over a perfectly scored Harry Fraud soundscape..</P> -->
+
+        </div>
+
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="otqrqm8rl53jhk3xb2rv.webp" style="width:800px height:600px">
+        <div class="text">
+          <H1>Big Sean Introduces His Mother to the Real Goku From ‘Dragon Ball Z’</H1>
+          <!-- <P>Like almost everyone in his age bracket,
+            Big Sean had an obsession with Dragon Ball Z
+            as a child. Now, because he’s been fortunate
+            enough to have a successful career in entertainment,
+            Sean had the pleasure of meeting voice actor, Seán Schemmel,
+            who voiced Goku in the popular Japanese anime series. Yet,
+            he wasn’t the only one who was excited to see the Saiyan warrior. His mom—who spent
+            a lot of money fueling his love for Dragon Ball Z—wanted to meet Goku as well..</P> -->
+
+        </div>
+
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="oico8zcgdyyz9gcpjzyq.webp" style="width:800px height:600px">
+        <div class="text">
+          <H1>The Comic Book History of ‘The Falcon and the Winter Soldier’</H1>
+          <!-- <P>Much of Captain America’s characterization is defined by how his past and
+            present intersect with one another—a concept literalized by his friendship
+            with Bucky Barnes (aka the Winter Soldier) and Sam Wilson (aka the Falcon).
+            As his childhood friend, Bucky stuck with Steve Rogers through thick and
+            thin until the perils of war took his life. Upon finding himself
+            awake in modern-day reality, Steve looks to Sam for guidance while also becoming a trusted ally. </P> -->
+
+        </div>
+
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="pioneering-womens-streetwear-brands.jpg" style="width:800px height:600px">
+        <div class="text">
+          <H1>The 10 Pioneering Women’s Streetwear Brands</H1>
+          <!-- <P>It’s no secret that the streetwear industry is male-dominated.
+            So often when looking at its timeline, women’s names are omitted.
+            While streetwear has certainly made strides forward and is maybe
+            more gender-fluid than ever before in 2021, it didn’t happen overnight.
+            Plenty of women have played a pivotal role in
+            forming the category and moving it ahead over the years.</P> -->
+
+        </div>
+
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div class="dot1" style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+    <!-- <div class="containerSlider">
+<div class="w3-content w3-display-container">
+  
+  
+  <img class="mySlides" src="pic01.jpg" style="width:800px">
+  <img class="mySlides" src="32kalogo-1.png" style="width:800px">
+  <img class="mySlides" src="2075-10-darkburgundy_455f109e-d382-4efc-a650-b3ee730eb54d_600x.webp" style="width:800px">
+  <img class="mySlides" src="145855557_433339361244384_5400101869752764397_n.jpg" style="width:800px">
+  <div class="mySlides1">
+<div class="containerSliderArticles">
+
+    <H1>TYLER THE CREATOR AND THE WOLF GANG LIVE AT JIMMY KIMMEL'S</H1>
+    <P>And interview that begins with “Alright, so I had three MySpaces, right?” is bound to turn out excellent. Tyler The Creator stopped by Jimmy Kimmel Live, Thursday night, not to preform, but to have a sit-down discussion of his recent career moves, past pranks and old jobs. Fresh off the success of his Cherry Bomb LP and the rising influence of his Golf Media mobile app, Tyler had ample reason to join the show as a proper interviewee–and her certainly made the most of it.</P>
+
+  </div>
+  <img class="mySlides" src="tyler.jpg" style="width:800px">
+</div>
+  <button class="w3-button w3-black w3-display-left"  onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+  
+    <!-- <div class="row clearfix">
+      <div class="sideNews">
+        <h1>NEWS</h1>
+        <img src="pic01.jpg" alt="headline1">
+                <h3>LOREM IPSUM FEUGIAT</h3>
+              
+                
+                <p>Lorem ipsum feugiat bla bla cicka kurka madlak debel
+                  
+                
+
+                </p>
+                <img src="pic01.jpg" alt="headline1">
+                <h3>LOREM IPSUM FEUGIAT</h3>
+              
+                
+                <p>Lorem ipsum feugiat bla bla cicka kurka madlak debel
+                  
+                
+
+                </p>
+                <img src="pic01.jpg" alt="headline1">
+                <h3>LOREM IPSUM FEUGIAT</h3>
+              
+                
+                <p>Lorem ipsum feugiat bla bla cicka kurka madlak debel
+                  
+                
+
+                </p>
+                <img src="pic01.jpg" alt="headline1">
+                <h3>LOREM IPSUM FEUGIAT</h3>
+              
+                
+                <p>Lorem ipsum feugiat bla bla cicka kurka madlak debel
+                  
+                
+
+                </p>
+                <img src="pic01.jpg" alt="headline1">
+                <h3>LOREM IPSUM FEUGIAT</h3>
+              
+                
+                <p>Lorem ipsum feugiat bla bla cicka kurka madlak debel
+                  
+                
+
+                </p>
+              </div>
+
+            </div>
+  </div>
+  </div>
+  </div>
+
+  </div> -->
+
+    </div>
+    </div> -->
+
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = x.length }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+      }
+    </script>
+
+
+
+
+    <!-- <div class="container1">
+      <div class="column">
+        <img src="pic01.jpg" alt="slika1">
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem ipsum feugitar nane buxna lajna pusat</p>
+      </div>
+      <div class="column">
+        <img src="pic01.jpg" alt="slika1">
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem ipsum feugitar nane buxna lajna pusat</p>
+      </div>
+      <div class="column">
+        <img src="pic01.jpg" alt="slika1">
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem ipsum feugitar nane buxna lajna pusat</p>
+      </div>
+      <div class="column">
+        <img src="pic01.jpg" alt="slika1">
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem ipsum feugitar nane buxna lajna pusat</p>
+      </div>
+      <div class="column">
+        <img src="pic01.jpg" alt="slika1">
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem ipsum feugitar nane buxna lajna pusat</p>
+      </div>
+    </div> -->
+
+  </section>
+  <div class="container">
+    <hr>
+  </div>
+  <section id="headline">
+    <div class="container">
+
+      <div class="naslov1">
+        <h1>LOREM IPSUM FEUGIAT</h1>
+        <img src="pic01.jpg" alt="headline1">
+        <H2>Lorem Ipsum</H2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+        </p>
+      </div>
+      <div class="row clearfix">
+        <div class="naslov2">
+          <h1>NEWS</h1>
+          <img src="pic01.jpg" alt="headline1">
+          <h3>LOREM IPSUM FEUGIAT</h3>
+
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+
+
+          </p>
+          <img src="pic01.jpg" alt="headline1">
+          <h3>LOREM IPSUM FEUGIAT</h3>
+
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+
+
+          </p>
+          <img src="pic01.jpg" alt="headline1">
+          <h3>LOREM IPSUM FEUGIAT</h3>
+
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+
+
+          </p>
+          <img src="pic01.jpg" alt="headline1">
+          <h3>LOREM IPSUM FEUGIAT</h3>
+
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.l
+
+
+
+          </p>
+          <img src="pic01.jpg" alt="headline1">
+          <h3>LOREM IPSUM FEUGIAT</h3>
+
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+
+
+          </p>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+
+    
+  </section>
+  <div class="container">
+    <hr>
+    
+    <div class="naslov3">
+      <div class="naslov31">
+          <img src="pic01.jpg" alt="headline1">
+          <h3>LOREM IPSUM FEUGIAT</h3>
+    
+    
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    
+    
+    
+          </p>
+        </div>
+        <div class="naslov32">
+          <img src="pic01.jpg" alt="headline1">
+          <h3>LOREM IPSUM FEUGIAT</h3>
+    
+    
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    
+    
+    
+          </p>
+        </div>
+        <div class="naslov33">
+          <img src="pic01.jpg" alt="headline1">
+          <h3>LOREM IPSUM FEUGIAT</h3>
+    
+    
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    
+    
+    
+          </p>
+        </div>
+        </div>
+        <hr>
+  </div>
+  <section id="bonusheadline">
+    <div class="container">
+
+      <div class="naslov1">
+        <h1>LOREM IPSUM FEUGIAT</h1>
+        <img src="pic01.jpg" alt="headline1">
+        <H2>Lorem Ipsum</H2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+        </p>
+      </div>
+      <div class="row clearfix">
+        <div class="naslov21">
+          <h1>NEWS</h1>
+          <div class="news1">
+            <img src="oico8zcgdyyz9gcpjzyq.webp" alt="headline1">
+            <h3>LOREM IPSUM FEUGIAT</h3>
+
+
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+
+
+            </p>
+          </div>
+          <img src="pic01.jpg" alt="headline1">
+          <h3>LOREM IPSUM FEUGIAT</h3>
+
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+
+
+          </p>
+          <img src="pic01.jpg" alt="headline1">
+          <h3>LOREM IPSUM FEUGIAT</h3>
+
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+
+
+          </p>
+          <img src="pic01.jpg" alt="headline1">
+          <h3>LOREM IPSUM FEUGIAT</h3>
+
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+
+
+          </p>
+          <img src="pic01.jpg" alt="headline1">
+          <h3>LOREM IPSUM FEUGIAT</h3>
+
+
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+
+
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+  <div class="container">
+    <hr>
+  </div>
+
+  <section id="articles">
+    <div class="container">
+      <div class="novosti">
+        <img src="pic01.jpg" alt="headline1">
+        <h3>LOREM IPSUM FEUGIAT</h3>
+
+
+        <p>Lorem Ipsum is simply dummy text of the printing.
+
+
+
+        </p>
+
+      </div>
+      <div class="novosti">
+        <img src="pic01.jpg" alt="headline1">
+        <h3>LOREM IPSUM FEUGIAT</h3>
+
+
+        <p>Lorem Ipsum is simply dummy text of the printing.
+
+
+
+        </p>
+
+      </div>
+      <div class="novosti">
+        <img src="pic01.jpg" alt="headline1">
+        <h3>LOREM IPSUM FEUGIAT</h3>
+
+
+        <p>Lorem Ipsum is simply dummy text of the printing.
+
+
+
+        </p>
+
+      </div>
+      <div class="novosti">
+        <img src="pic01.jpg" alt="headline1">
+        <h3>LOREM IPSUM FEUGIAT</h3>
+
+
+        <p>Lorem Ipsum is simply dummy text of the printing.
+
+
+
+        </p>
+
+      </div>
+      <div class="novosti">
+        <img src="pic01.jpg" alt="headline1">
+        <h3>LOREM IPSUM FEUGIAT</h3>
+
+
+        <p>Lorem Ipsum is simply dummy text of the printing.
+
+
+
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <div class="container">
+
+    <div class="footer">
+      <div class="contact">
+        <!-- <ul>
+        <li>Contact</li>
+        <li>Contact</li>
+        <li>Contact</li>
+        <li>Contact</li>
+      </ul> -->
+      </div>
+      <div class="footerlogo">
+        <img id="img" src="logopnginvert.png" alt="logo">
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
